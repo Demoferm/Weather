@@ -23,13 +23,13 @@ function App() {
         //         console.log(json)
         //         setTodos(json);
         //     })
-let city = document.getElementById('city').value;
+        let city = document.getElementById('city').value;
         axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=23115c617732be5077c954f6e8f4d9e6`)
             .then(function (response) {
                 // handle success
                 console.log(response);
                 setTodos(response.data);
-                setTemp((response.data.main.temp-273.15).toFixed(2)+' °C');
+                setTemp((response.data.main.temp - 273.15).toFixed(2) + ' °C');
             })
             .catch(function (error) {
                 // handle error
@@ -42,12 +42,21 @@ let city = document.getElementById('city').value;
     }
 
 
-
     return (
         <div className="App">
-            <input id='city' placeholder='Enter the city'/>
-            <button onClick={getTodos}>OK</button>
-            <p>Temperature is: {tempC} </p>
+            <div className="input-group mb-3">
+                <input type="text" id='city' className="form-control" placeholder="Enter the city"
+                       aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                <div className="input-group-append">
+                    <button className="btn btn-outline-secondary" type="button" id="button-addon2"
+                            onClick={getTodos}>OK
+                    </button>
+                </div>
+            </div>
+            {/*<input id='city2' placeholder='Enter the city'/>*/}
+            {/*<button className="btn btn-success" onClick={getTodos}>OK</button>*/}
+            <p className="h4">Temperature is: {tempC}</p>
+            {/*<p>Temperature is: {tempC} </p>*/}
 
             {/*{*/}
             {/*          todos.map(el => (*/}
