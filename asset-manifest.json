@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Demoferm/Weather.git/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Demoferm/Weather.git/static/js/main.b1df8f00.chunk.js",
-    "main.js.map": "/Demoferm/Weather.git/static/js/main.b1df8f00.chunk.js.map",
-    "runtime-main.js": "/Demoferm/Weather.git/static/js/runtime-main.ba35882e.js",
-    "runtime-main.js.map": "/Demoferm/Weather.git/static/js/runtime-main.ba35882e.js.map",
-    "static/js/2.a6fcdbd0.chunk.js": "/Demoferm/Weather.git/static/js/2.a6fcdbd0.chunk.js",
-    "static/js/2.a6fcdbd0.chunk.js.map": "/Demoferm/Weather.git/static/js/2.a6fcdbd0.chunk.js.map",
-    "index.html": "/Demoferm/Weather.git/index.html",
-    "precache-manifest.c40e7531ecd4f5306e8480fd55417016.js": "/Demoferm/Weather.git/precache-manifest.c40e7531ecd4f5306e8480fd55417016.js",
-    "service-worker.js": "/Demoferm/Weather.git/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Demoferm/Weather.git/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.a6fcdbd0.chunk.js.LICENSE.txt": "/Demoferm/Weather.git/static/js/2.a6fcdbd0.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Demoferm/Weather.git/static/media/logo.5d5d9eef.svg"
+    "main.css": "/Weather/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Weather/static/js/main.645ecfd7.chunk.js",
+    "main.js.map": "/Weather/static/js/main.645ecfd7.chunk.js.map",
+    "runtime-main.js": "/Weather/static/js/runtime-main.ae02ea9b.js",
+    "runtime-main.js.map": "/Weather/static/js/runtime-main.ae02ea9b.js.map",
+    "static/js/2.a6fcdbd0.chunk.js": "/Weather/static/js/2.a6fcdbd0.chunk.js",
+    "static/js/2.a6fcdbd0.chunk.js.map": "/Weather/static/js/2.a6fcdbd0.chunk.js.map",
+    "index.html": "/Weather/index.html",
+    "precache-manifest.f986d9aad90757dff3f5f6d231f39481.js": "/Weather/precache-manifest.f986d9aad90757dff3f5f6d231f39481.js",
+    "service-worker.js": "/Weather/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Weather/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a6fcdbd0.chunk.js.LICENSE.txt": "/Weather/static/js/2.a6fcdbd0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Weather/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba35882e.js",
+    "static/js/runtime-main.ae02ea9b.js",
     "static/js/2.a6fcdbd0.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b1df8f00.chunk.js"
+    "static/js/main.645ecfd7.chunk.js"
   ]
 }
